@@ -70,13 +70,16 @@ class Login extends StatelessWidget {
                 ),
               ),
               SizedBox(height: 30),
-              Text(
-                'Senha',
-                style: TextStyle(
-                  color: Colors.black,
-                  fontFamily: 'Urbanist',
-                  fontSize: 18,
-                  fontWeight: FontWeight.w600,
+              Padding(
+                padding: const EdgeInsets.only(left: 20),
+                child: Text(
+                  'Senha',
+                  style: TextStyle(
+                    color: Colors.black,
+                    fontFamily: 'Urbanist',
+                    fontSize: 18,
+                    fontWeight: FontWeight.w600,
+                  ),
                 ),
               ),
               SizedBox(height: 10),

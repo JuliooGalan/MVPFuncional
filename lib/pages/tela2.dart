@@ -85,7 +85,7 @@ class _SegundaTelaState extends State<SegundaTela> {
                   Column(
                     children: [
                       Icon(Icons
-                          .lock_clock_sharp, color: Colors.black54,), 
+                          .access_alarm, color: Colors.black54,), 
                       Text(
                         '8 horas',
                         style: TextStyle(

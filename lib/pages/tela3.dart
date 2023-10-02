@@ -93,22 +93,111 @@ class _TerceiraTelaState extends State<TerceiraTela> {
                   ),
                 ],
               ),
-              SizedBox(width: 100), 
-              Row(
-                
-                children: [
-                  Icon(Icons.add_location_alt_outlined), // Ícone que você deseja usar
-                  SizedBox(width: 20), // Espaço entre o ícone e o texto
-                  Text(
-                    'Ponto de partida',
-                    style: TextStyle(
-                      color: Colors.black,
-                      fontFamily: 'YoungSerif',
-                      fontSize: 12,
+              
+              Padding(
+                padding: const EdgeInsets.only(left: 30),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.start,
+                  children: [
+                    Icon(Icons.add_location_alt_outlined, color: Colors.black45,), 
+                    SizedBox(width: 5),
+                    Text(
+                      'Ponto de partida',
+                      style: TextStyle(
+                        color: Colors.black,
+                        fontFamily: 'YoungSerif',
+                        fontSize: 12,
+                      ),
                     ),
-                  ),
-                ],
-              )
+                  ],
+                ),
+              ),
+              SizedBox(height: 10,),
+              Padding(
+                padding: const EdgeInsets.only(left: 60),
+                child: Row(
+                  children: [
+                    Text(
+                      'AC Santos, Rua idade de Toledo 41, Centro, Santos - SP',
+                      style: TextStyle(
+                        color: Colors.black45,
+                        fontFamily: 'YoungSerif',
+                        fontSize: 12,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              SizedBox(height: 15),
+              Padding(
+                padding: const EdgeInsets.only(left: 30),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.start,
+                  children: [
+                    Icon(Icons.access_alarm, color: Colors.black45,), 
+                    SizedBox(width: 5),
+                    Text(
+                      'Tempo de Viagem',
+                      style: TextStyle(
+                        color: Colors.black,
+                        fontFamily: 'YoungSerif',
+                        fontSize: 12,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              SizedBox(height: 10),
+              Padding(
+                padding: const EdgeInsets.only(left: 60),
+                child: Row(
+                  children: [
+                    Text(
+                      '38 min',
+                      style: TextStyle(
+                        color: Colors.black45,
+                        fontFamily: 'YoungSerif',
+                        fontSize: 12,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              SizedBox(height: 15),
+              Padding(
+                padding: const EdgeInsets.only(left: 30),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.start,
+                  children: [
+                    Icon(Icons.add_location_alt_outlined, color: Colors.black45,), 
+                    SizedBox(width: 5),
+                    Text(
+                      'Ponto de chegada',
+                      style: TextStyle(
+                        color: Colors.black,
+                        fontFamily: 'YoungSerif',
+                        fontSize: 12,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              SizedBox(height: 10),
+              Padding(
+                padding: const EdgeInsets.only(left: 60),
+                child: Row(
+                  children: [
+                    Text(
+                      'FIAP, Av. Lins de Vasconcelos, 122 - Aclimação, São Paulo',
+                      style: TextStyle(
+                        color: Colors.black45,
+                        fontFamily: 'YoungSerif',
+                        fontSize: 12,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
             ],
           ),
         ),

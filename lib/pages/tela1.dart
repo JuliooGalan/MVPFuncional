@@ -99,7 +99,7 @@ class _PrimeiraTelaState extends State<PrimeiraTela> {
                   decoration: InputDecoration(
                     hintText:
                         'Procurar por carona                                    |',
-                    suffixIcon: Icon(Icons.settings_ethernet),
+                    suffixIcon: Icon(Icons.settings_voice),
                     border: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(20),
                       borderSide: BorderSide(color: Colors.grey),
@@ -184,11 +184,15 @@ class _PrimeiraTelaState extends State<PrimeiraTela> {
                     },
                     style: ElevatedButton.styleFrom(
                       primary: buttonColors[2],
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(30.0),
+                      ),
                     ),
                     child: Text(
                       'Anterior',
                       style: TextStyle(
                         color: Colors.white, fontFamily: 'Urbanist'),
+                        
                     ),
                   ),
                 ],
@@ -226,25 +230,25 @@ class _PrimeiraTelaState extends State<PrimeiraTela> {
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
                   children: [
                     IconButton(
-                      icon: Icon(Icons.home),
+                      icon: Icon(Icons.home_outlined),
                       onPressed: () {
                         // Adicione a ação desejada aqui
                       },
                     ),
                     IconButton(
-                      icon: Icon(Icons.punch_clock),
+                      icon: Icon(Icons.access_time),
                       onPressed: () {
                         // Adicione a ação desejada aqui
                       },
                     ),
                     IconButton(
-                      icon: Icon(Icons.monitor_heart),
+                      icon: Icon(Icons.favorite_outline),
                       onPressed: () {
                         // Adicione a ação desejada aqui
                       },
                     ),
                     IconButton(
-                      icon: Icon(Icons.verified_user),
+                      icon: Icon(Icons.people_outline),
                       onPressed: () {
                         // Adicione a ação desejada aqui
                       },

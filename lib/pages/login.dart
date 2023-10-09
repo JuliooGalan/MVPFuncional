@@ -15,14 +15,7 @@ class Login extends StatelessWidget {
           width: 430,
           height: 632,
           decoration: BoxDecoration(
-            gradient: LinearGradient(
-              begin: Alignment.topCenter,
-              end: Alignment.bottomCenter,
-              colors: [
-                Colors.white,
-                Color.fromARGB(255, 117, 178, 228),
-              ],
-            ),
+            color: Colors.white,
             borderRadius: BorderRadius.circular(20),
           ),
           child: Column(
@@ -70,9 +63,7 @@ class Login extends StatelessWidget {
                 ),
               ),
               SizedBox(height: 30),
-              Padding(
-                padding: const EdgeInsets.only(left: 20),
-                child: Text(
+              Text(
                   'Senha',
                   style: TextStyle(
                     color: Colors.black,
@@ -81,7 +72,7 @@ class Login extends StatelessWidget {
                     fontWeight: FontWeight.w600,
                   ),
                 ),
-              ),
+              
               SizedBox(height: 10),
               Container(
                 height: 40,

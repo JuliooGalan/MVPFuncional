@@ -10,13 +10,7 @@ class TelaInicial extends StatelessWidget {
           width: 430,
           height: 632,
           decoration: BoxDecoration(
-            gradient: LinearGradient(
-              begin: Alignment.topCenter,
-              end: Alignment.bottomCenter,
-              colors: [
-              Colors.white, Color.fromARGB(255, 117, 178, 228),
-            ],
-            ),
+           color: Colors.white,
             borderRadius: BorderRadius.circular(50),
           ),
           child: Column(
